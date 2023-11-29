@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-light-rounded {
+    background-color: white;
+    color: #3385ff;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.btn-light-rounded:hover {
+    background-color: #3385ff;
+    color: white;
+}
