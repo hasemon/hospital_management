@@ -14,3 +14,41 @@ h1 {
     background-color: #3385ff;
     color: white;
 }
+
+.service{
+    width: 90px;
+    color: #3385ff;
+    margin-left: 40%;
+    border-bottom: 2px solid #3385ff;
+}
+
+.service-heading{
+    text-align: center;
+}
+.card{
+    border: none;
+
+}
+
+.card-flex{
+    display: flex;
+    float: left;
+    margin: 5px;
+    margin-top: 60px;
+    width: 250px;
+    height: 250px;
+}
+
+.card-flex:hover{
+    background-color: #f5f5f6;
+    box-shadow: 10px 10px 20px #3385ff;;
+}
+
+
+.card-title{
+    color: orange;
+}
+.card-icon{
+    height: 20px;
+    width: 20px;
+}
