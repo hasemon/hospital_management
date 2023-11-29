@@ -16,7 +16,8 @@ h1 {
 }
 
 .service{
-    width: 90px;
+    font-size: 20px;
+    width: 115px;
     color: #3385ff;
     margin-left: 40%;
     border-bottom: 2px solid #3385ff;
@@ -24,6 +25,7 @@ h1 {
 
 .service-heading{
     text-align: center;
+    font-size: 45px;
 }
 .card{
     border: none;
@@ -51,4 +53,8 @@ h1 {
 .card-icon{
     height: 20px;
     width: 20px;
+}
+
+.card-btn{
+    color: #3385ff;
 }
