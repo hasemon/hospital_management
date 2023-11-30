@@ -6,13 +6,26 @@
     background-color: white;
     color: #3385ff;
     border-radius: 25px;
-    border: none;
-    padding: 5px 20px;
+    border: 2px solid #3385ff;
+    padding: 8px 30px;
 }
 
 .btn-light-rounded:hover {
     background-color: #3385ff;
     color: white;
+}
+
+.btn-light-invert-rounded {
+    background-color: #3385ff;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #3385ff;
+    padding: 8px 30px;
+}
+
+.btn-light-invert-rounded:hover {
+    background-color: white;
+    color: #3385ff;
 }
 
 .service{
@@ -57,7 +70,6 @@
     color: #3385ff;
 }
 
-<<<<<<< Updated upstream
 .testimonials{
     height: 400px;
     
@@ -68,16 +80,20 @@
     margin: 10px;
 }
 
-.testimonials-heading{
+.testimonials-heading {
     font-size: 20px;
     width: 115px;
     color: #3385ff;
     margin-left: 10%;
     border-bottom: 2px solid #3385ff;
+}
 
-=======
 .carousel_image {
-    height: 600px;
-    width: 600px;
->>>>>>> Stashed changes
+    height: 500px;
+    width: 500px;
+}
+
+.indexFont {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
