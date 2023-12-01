@@ -93,7 +93,38 @@
     width: 500px;
 }
 
-.indexFont {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+.floating-card-doctor {
+    width: 260px;
+    height: 150px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.floating-card-experience {
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    top: 32%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+
+.card-icon{
+    width: 30px;
+    height: 30px;
+}
+.card-link {
+    text-decoration: none;
 }
