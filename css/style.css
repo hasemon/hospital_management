@@ -42,6 +42,7 @@
 }
 .card{
     border: none;
+    
 
 }
 
@@ -54,7 +55,7 @@
 }
 
 .card-flex:hover{
-    background-color: #f5f5f6;
+    background-color: #f6f6f5;
     box-shadow: 10px 10px 20px #3385ff;;
 }
 
@@ -96,8 +97,9 @@
     color: blue;
     font-weight: bold;
 }
-.testimonials-link:after{
+.testimonials-link::after{
     font-weight: bold;
+    color: black;
 }
 
 .testimonials-video{
