@@ -28,22 +28,9 @@
     border: 2px solid #3385ff;
 }
 
-.service{
-    font-size: 20px;
-    width: 115px;
-    color: #3385ff;
-    margin-left: 40%;
-    border-bottom: 2px solid #3385ff;
-}
 
-.service-heading{
-    text-align: center;
-    font-size: 45px;
-}
 .card{
     border: none;
-    
-
 }
 
 .card-flex{
@@ -71,22 +58,15 @@
     color: #3385ff;
 }
 
-.testimonials{
-    height: 400px;
-    
-}
 
 .testimonials-item{
     padding: 30px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .testimonials-heading {
-    font-size: 20px;
-    width: 115px;
     color: #3385ff;
-    margin-left: 10%;
-    border-bottom: 2px solid #3385ff;
+    border-bottom: 3px solid #3385ff;
 }
 
 .testimonials-link{
@@ -94,16 +74,12 @@
     color: black;
 }
 .testimonials-link:hover{
-    color: blue;
+    color: #3385ff;
     font-weight: bold;
 }
 .testimonials-link::after{
     font-weight: bold;
     color: black;
-}
-
-.testimonials-video{
-    margin: 20px;
 }
 
 .carousel_image {
@@ -161,7 +137,13 @@
     color: seagreen;
 }
 
+.card-our-service {
+    height: 260px;
+    border-radius: 20px;
+    border: 2px solid #3385ff;
+}
+
+
 .card-link:hover{
     color: #3385ff;
 }
-
