@@ -155,7 +155,24 @@
     border: 2px solid #3385ff;
 }
 
-
 .card-link:hover{
+    color: #3385ff;
+}
+
+.footer-link-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3385ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.footer-links{
+    padding: 2px 0;
+    text-decoration: none;
     color: #3385ff;
 }
