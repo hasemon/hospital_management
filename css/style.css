@@ -88,6 +88,8 @@
 }
 
 .floating-card-doctor {
+    border: 2px solid #198754;
+    cursor: pointer;
     width: 260px;
     height: 135px;
     position: absolute;
@@ -101,6 +103,11 @@
     border-radius: 15px;
 }
 .floating-card-experience {
+    border: 1px solid #3385ff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 250px;
     height: 50px;
     position: absolute;
@@ -109,12 +116,17 @@
     transform: translate(-50%, -50%);
     z-index: 999;
     background-color: #fff;
-    padding: 10px;
+    padding: 10px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
 .floating-card-medical {
+    border: 1px solid #198754;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 270px;
     height: 50px;
     position: absolute;
@@ -123,7 +135,7 @@
     transform: translate(-50%, -50%);
     z-index: 999;
     background-color: #fff;
-    padding: 10px;
+    padding: 10px 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
