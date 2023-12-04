@@ -221,3 +221,41 @@
     border-radius: 20px;
     border: 2px solid #3385ff;
 }
+
+.card-doctor-about-us{
+    width: 280px;
+    border-radius: 25px;
+    position: relative;
+}
+.squareShadow {
+    position: absolute;
+    height: 320px;
+    width: 280px;
+    z-index: -1;
+    transform: rotate(-15deg);
+    border-radius: 25px;
+    margin-left: -30px;
+    border: 1px solid seagreen;
+}
+
+.arrow-right:after {
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #3385ff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    vertical-align: middle;
+
+}
+
+.arrow-right:before {
+    width: 100px;
+    height: 2px;
+    background: #3385ff;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+

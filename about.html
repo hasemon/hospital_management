@@ -1,57 +1,158 @@
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/about.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Care Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <!-- About Us  -->
-    <div class="container mt-5">
-        <h4 class="text-primary">About Us</h4>
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg p-4 bg-primary-subtle">
+    <a class="navbar-brand ps-5" href="#">
+        <img src="img/logo.png" alt="Care Center" width="185" height="35">
+    </a>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+            <ul class="navbar-nav pe-2 customFont fw-semibold">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourService.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <button type="button" class="btn-light-rounded me-5 fw-semibold customFont">Make Appointment</button>
+        </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">  </div>
+</nav>
+
+<!--About Us-->
+<div class="container d-flex flex-column align-items-center">
+    <div class="customFont mb-5">
+        <div class="col-md-12 d-flex flex-row mt-5">
+            <div class="col-3 d-flex flex-row">
+                <h4 class="text-primary fw-semibold">About Us</h4>
+                <span class="ms-4 arrow-right"></span>
+            </div>
             <div class="col-9">
-                <h5>
-                    <i>Leading healthcare institution dedicated to providing exceptional medical
-                        services and <br> personalized care.</i>
-                </h5>
+                <h6 class="fw-semibold fst-italic ">
+                    Leading healthcare institution dedicated to providing exceptional medical
+                    services and personalized care.
+                </h6>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="card mt-5 mb-3 d-flex" style="width: 100%;">
-            <div class="row g-0">
-                <div class="innr">
-                    <img src="img/dortor3.png" alt="">
+    <div class="customFont">
+        <div class="col-md-12 d-flex flex-row">
+            <div class="col-md-4 pt-3">
+                <div class="pe-5">
+                    <div class="squareShadow bg-success-subtle"></div>
+                    <img class="card-doctor-about-us" src="img/doctorAbout.jpg" alt="">
+
                 </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                    <h4>Vision</h4>
-                    <p>
-                        To be the premier healthcare provider, recognized for our execellence in <br>
-                        madical care, paitient-centered approach, and commitment to <br>
-                        advancing healthcare services, ultimately improving the helth and <br>
-                        well-being of our community.
-                    </p>
-                    <h4>Missions</h4>
-                    <p>
-                        <ul>Provide exceptional and comprehensive healthcare services.</ul>
-                        <ul>Prioritize patient-centered care and satisfaction.</ul>
-                        <ul>Foster a culture of continunous learning and innovation.</ul>
-                        <ul>Cultivate strong partnerships and collaborations.</ul>
-                    </p>
-                    <button type="button" class="btn text-primary">
-                        Learn More &rarr;
-                    </button>
-                </div>
-              </div>
+
             </div>
-        </div>   
+            <div class="col-md-8 ps-5">
+                <h5 class="fw-semibold mb-3">Vision</h5>
+                <p class="ms-4">
+                    To be the premier healthcare provider, recognized for our excellence in <br>
+                    medical care, patient-centered approach, and commitment to <br>
+                    advancing healthcare services, ultimately improving the health and <br>
+                    well-being of our community.
+                </p>
+                <h5 class="fw-semibold mb-3">Missions</h5>
+
+                <ul>Provide exceptional and comprehensive healthcare services.</ul>
+                <ul>Prioritize patient-centered care and satisfaction.</ul>
+                <ul>Foster a culture of continuous learning and innovation.</ul>
+                <ul>Cultivate strong partnerships and collaborations.</ul>
+
+
+                <a href="#" class="pb-2 fw-semibold text-decoration-none">Learn More <i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
     </div>
+</div>
+
+
+<!--footer-->
+<footer class="bg-primary-subtle mt-5">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-2">
+                <img src="img/logo.png" alt="Care Center" width="127px" height="23.5px">
+                <p class="text-dark-emphasis pt-3 pb-2">Compassionate Care,<br> Trusted Expertise, and Cutting-edge
+                    Technology <br> for Your Well-being.</p>
+                <div class="d-flex flex-row justify-content-between">
+                    <a href="#" class="footer-link-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-link-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-link-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="footer-link-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-2 ps-5">
+                <p class="text-primary fw-semibold fs-5">Location</p>
+                <p>Mirpur-1</p>
+                <p> Dhaka </p>
+                <p> Bangladesh</p>
+            </div>
+            <div class="col-2">
+                <p class="text-primary fw-semibold fs-5">Awards</p>
+                <p>Best Hospital 2022</p>
+                <p>Top 10 Asain Hospital</p>
+                <p>Best Cardiology Treatment</p>
+
+            </div>
+            <div class="col-2">
+                <p class="text-primary fw-semibold fs-5">Links</p>
+                <div class="d-flex flex-column">
+                    <a href="#" class="footer-links">Make Appointment</a>
+                    <a href="#" class="footer-links">Contact Us</a>
+                    <a href="#" class="footer-links">Emergency Call</a>
+                    <a href="#" class="footer-links">FAQ</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <p class="text-primary fw-semibold fs-5">Menu</p>
+                <div class="d-flex flex-column">
+                    <a href="#" class="footer-links">Services</a>
+                    <a href="#" class="footer-links">Articles</a>
+                    <a href="#" class="footer-links">About us</a>
+                    <a href="#" class="footer-links">Contact</a>
+                </div>
+            </div>
+            <div class="col-2">
+                <p class="text-primary fw-semibold fs-5">Treatment</p>
+                <p> Cardiology </p>
+                <p> Dermatology </p>
+                <p> Orthopaedic </p>
+                <p> Gastroenterology </p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center pb-2">
+        <hr/>
+        Copyright ZETCI corp.
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4a163e2913.js" crossorigin="anonymous"></script>
 </body>
 </html>
