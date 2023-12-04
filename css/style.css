@@ -144,9 +144,14 @@
     width: 30px;
     height: 30px;
 }
+
 .card-link {
     text-decoration: none;
     color: seagreen;
+}
+
+.card-link:hover{
+    color: #3385ff;
 }
 
 .card-our-service {
@@ -155,9 +160,6 @@
     border: 2px solid #3385ff;
 }
 
-.card-link:hover{
-    color: #3385ff;
-}
 
 .footer-link-icon{
     display: flex;
@@ -254,8 +256,12 @@
     float: left;
     margin: 10px;
     border-radius: 20px;
-
 }
+
+.card-doctor:hover{
+    color: #3385ff;
+}
+
 .card-doctor-img {
     height: 250px;
     border-radius: 20px;
