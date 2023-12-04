@@ -1,0 +1,25 @@
+.card{
+    --bs-card-border-width:0;
+}
+.card .innr{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.card .innr::before{
+    width: 200px;
+    height: 385px;
+    content: "";
+    background: rgb(223, 230, 245);
+    position: absolute;
+    transform: rotate(-10deg);
+    z-index: -1;
+    border-radius: 20px;
+    margin-left: -30px;
+
+}
+.card .innr img{
+    width: 300px;
+    border-radius: 10px;   
+
+}
