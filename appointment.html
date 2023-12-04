@@ -34,91 +34,71 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <button type="button" class="btn-light-rounded me-5 fw-semibold customFont">Make Appointment</button>
+            <button type="button" class="btn-light-rounded me-5 fw-semibold customFont active ">Make Appointment</button>
         </div>
     </div>
 </nav>
 
-<!--left panel-->
-<section class="bg-primary-subtle pb-5">
-<div class="container pb-5">
-    <div class="row row-cols-2">
-        <div class="col d-flex flex-column justify-content-center">
-            <h1 class="customFont fw-bold">
-                Empowering Lives <br> through Transformative Healthcare
-            </h1>
-            <p class="customFont mt-3">
-                Our mission is to empower lives, fostering wellness through innovative
-                medical practices, cutting-edge technology and a dedicated team of <br>
-                healthcare professionals.
-            </p>
-            <div class="d-flex flex-row mt-3">
-                <button type="button" class="btn-light-invert-rounded me-3 customFont fw-semibold">Make Appointment
-                </button>
-                <button type="button" class="btn-light-rounded me-5 customFont fw-semibold">Chat with Us</button>
-            </div>
-        </div>
 
-
-        <!--Carousel-->
-        <div class="col">
-            <div id="carouselExampleInterval" class="carousel slide pt-3 carousel_image " data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="img/h1.jpg" class="d-block w-100 rounded-5" alt="doctor_image">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/h2.jpg" class="d-block w-100 rounded-5" alt="hospital_image">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/h3.jpg" class="d-block w-100 rounded-5" alt="patient_image">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card floating-card-doctor ">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/fdoc1s.png" class="img-fluid" alt="Dr. Sanzida">
-                </div>
-                <div class="col-md-8">
-                        <h5 class="card-title">Dr. Sanjida</h5>
-                        <p class="card-text fw-semibold">Cardiologist</p>
-                </div>
-
-                <a href="#" class="card-link text-center mt-3 fw-semibold customFont">Make Appointment</a>
-            </div>
-        </div>
-        <div class="card floating-card-experience">
-            <div class="d-flex flex-row align-items-center">
-                <img src="img/verified.png" class="img-fluid card-icon" alt="verified.png">
-                <p class="card-text fw-semibold ps-2 customFont">20+ Experienced Doctors</p>
-            </div>
-        </div>
-        <div class="card floating-card-medical ">
-            <div class="d-flex flex-row align-items-center">
-                <img src="img/medal.png" class="img-fluid card-icon" alt="medical.png">
-                <p class="card-text fw-semibold ps-2 customFont">12+ Medical Achievements</p>
-            </div>
-        </div>
+<!-- Appointment form  -->
+<section class="container col-6 ">
+    <div class="container col-10  ">
+        <h1 class="customFont">Doctor Appointment Form</h1>
     </div>
-</div>
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label>Patient Name</label>
+      <input type="text" class="form-control" placeholder="Patient's Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label>Age</label>
+      <input type="number" class="form-control" placeholder="Patient's age">
+    </div>
+    <div class="form-group col-md-6">
+      <label>Gender</label>
+      <select class="form-control">
+        <option selected>Choose...</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Address</label>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  <div class="form-group col-md-6">
+      <label>Phone Number</label>
+      <input type="number" class="form-control" placeholder="Patient's Phone Number">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">Doctors</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Dr. Sanjida</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label>Appointment Date</label>
+      <input type="date" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        All information is currect
+      </label>
+    </div>
+  </div>
+  <a href="#" class="card-link text-center mt-3 fw-semibold customFont">Make Appointment</a>
+</form>
 </section>
 
-<!--Contact us-->
-<div class="container bg-primary-subtle mt-5 contact-body customFont ">
-    <div class=" contact-item">
-        <a class="customFont fs-6 text-center fw-semibold link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-            Get in Touch</a>
-        <h2 class="pt-3 fw-semibold">Contact Us for Exceptional Care</h2>
-        <p class="text-dark-emphasis pt-2 pb-2">
-            We are here to address your healthcare needs and answer <br>
-            your qwestions.
-        </p>
-        <button type="button" class="contact-btn customFont fw-semibold"> Contact Us
-        </button>
-    </div>
-</div>
+
+
 <!-- footer -->
 <footer class="bg-primary-subtle mt-5">
     <div class="container">
@@ -161,7 +141,7 @@
                 <div class="d-flex flex-column">
                     <a href="#" class="footer-links">Services</a>
                     <a href="#" class="footer-links">Articles</a>
-                    <a href="#" class="footer-links">About us</a>
+                    <a href="#" class="footer-links">Articles</a>
                     <a href="#" class="footer-links">Contact</a>
                 </div>
             </div>
@@ -174,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div class="container text-center pb-2">
+    <div class="container text-center pb-3">
         <hr/>
         Copyright ZETCI corp.
     </div>
