@@ -47,7 +47,7 @@
 }
 
 .card-title{
-    color: orange;
+    color: black;
 }
 .card-icon{
     height: 20px;
@@ -252,15 +252,13 @@
 
 .card-doctor {
     height: 380px;
-    width: 220px;
+    width: 200px;
     float: left;
     margin: 10px;
     border-radius: 20px;
 }
 
-.card-doctor:hover{
-    color: #3385ff;
-}
+
 
 .card-doctor-img {
     height: 250px;
@@ -288,4 +286,22 @@
 
 .inputs {
     width: 400px;
+}
+.btn-appointment{
+    font-size: 14px;
+    width: 160px;
+    color: white;
+    background-color: #3385ff;
+    border: 2px solid #3385ff;
+    border-radius: 25px;
+    padding: 8px 0;
+}
+
+.btn-appointment:hover{
+    color: #3385ff;
+    background-color: #ffffff;
+    border: 2px solid #3385ff;
+    border-radius: 25px;
+    padding: 8px 0;
+    box-shadow: 10px 10px 20px #3385ff;
 }
