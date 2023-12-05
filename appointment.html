@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,31 +42,35 @@
 
 
 <!-- Appointment form  -->
-<section class="container col-6 ">
+<section class="container col-6 pt-5 customFont">
     <div class="container col-10  ">
-        <h1 class="customFont">Doctor Appointment Form</h1>
+        <h1>Doctor Appointment Form</h1>
     </div>
     <form>
   <div class="form-row">
-    <div class="form-group col-md-12">
-      <label>Patient Name</label>
-      <input type="text" class="form-control" placeholder="Patient's Name">
+    <div class="form-group col-md-12 pt-3 d-flex flex-row">
+      <label>
+          Name:
+          <input type="text" class="form-control inputs " placeholder="Patient's Name">
+      </label>
+        <label class="ps-5">
+            Age:
+            <input type="number" class="form-control" placeholder="Patient's age">
+        </label>
     </div>
-    <div class="form-group col-md-6">
-      <label>Age</label>
-      <input type="number" class="form-control" placeholder="Patient's age">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Gender</label>
-      <select class="form-control">
-        <option selected>Choose...</option>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Others</option>
-      </select>
+    <div class="form-group col-md-6 pt-3">
+        <label>Gender</label>
+        <div class="form-check form-check-inline ps-5 pt-2">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+        </div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group pt-3">
     <label>Address</label>
     <input type="text" class="form-control" placeholder="">
   </div>
