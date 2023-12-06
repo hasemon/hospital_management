@@ -256,6 +256,7 @@
     float: left;
     margin: 10px;
     border-radius: 20px;
+    border: 1px solid #198754;
 }
 
 
@@ -328,4 +329,8 @@
     border-radius: 25px;
     padding: 10px 0;
     box-shadow: 10px 10px 20px #198754;
+}
+
+.footer-service {
+    margin-top: 80px;
 }
