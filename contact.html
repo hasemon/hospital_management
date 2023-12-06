@@ -35,20 +35,20 @@
                     <a class="nav-link active " href="contact.html">Contact</a>
                 </li>
             </ul>
-            <button type="button" class="btn-light-rounded me-5 fw-semibold customFont active ">Make Appointment</button>
+            <button type="button" class="btn-light-rounded me-5 fw-semibold customFont active" onclick="toAppointment()">Make Appointment</button>
         </div>
     </div>
 </nav>
 
     <!-- contact section  -->
-<section class="container bg-primary-subtle mt-5">
+<section class="container bg-primary-subtle mt-5 p-4 rounded-5 customFont">
 
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <h2 class="fw-bold text-center">Contact us</h2>
     <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>
-    <div class="row">
+    <div class="row ps-4">
         <div class="col-md-9 mb-md-0 mb-5">
                 <div class="row">
                     <div class="col-md-6">
@@ -67,17 +67,17 @@
                 <div class="row">
                     <div class="col-md-12">
 
-                        <div class="md-form">
+                        <div class="md-form mt-3">
                             <label for="message">Your message</label>
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                         </div>
                     </div>
                 </div>
             </form>
-            <div class="text-center text-md-left"><br>
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <div class="text-center">
+                <a class="btn btn-primary m-3 ps-4 pe-4">Send</a>
             </div>
-            <div class="status"></div>
+
         </div>
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
