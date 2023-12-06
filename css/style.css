@@ -300,15 +300,15 @@
     font-size: 14px;
     width: 160px;
     color: white;
-    background-color: #3385ff;
-    border: 2px solid #3385ff;
+    background-color: #198754;
+    border: 2px solid #198754;
     border-radius: 25px;
     padding: 8px 0;
 }
 
 .btn-appointment:hover{
-    color: #3385ff;
-    background-color: #ffffff;
+    color: white;
+    background-color: #3385ff;
     border: 2px solid #3385ff;
     border-radius: 25px;
     padding: 8px 0;
