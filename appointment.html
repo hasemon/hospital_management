@@ -42,23 +42,23 @@
 
 
 <!-- Appointment form  -->
-<section class="container col-6 mt-5 pt-5 customFont appointment">
+<section class="container col-6 mt-5 mt-5 customFont appointment">
     <div class="container col-10  ">
-        <h1>Doctor Appointment Form</h1>
+        <h3 class="fw-bold text-center border-bottom">Doctor Appointment Form</h3>
     </div>
     <form>
   <div class="form-row">
-    <div class="form-group col-md-12 pt-3 d-flex flex-row">
+    <div class="form-group col-md-12 mt-3 d-flex flex-row">
       <label>
           Name:
           <input type="text" class="form-control inputs " placeholder="Patient's Name">
       </label>
-        <label class="ps-5">
+        <label class="ps-3">
             Age:
             <input type="number" class="form-control" placeholder="Patient's age">
         </label>
     </div>
-    <div class="form-group col-md-6 pt-3">
+    <div class="form-group col-md-6 mt-3">
         <label>Gender</label>
         <div class="form-check form-check-inline ps-5 pt-2">
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -70,15 +70,15 @@
         </div>
     </div>
   </div>
-  <div class="form-group pt-3">
+  <div class="form-group mt-3">
     <label>Address</label>
-    <input type="text" class="form-control" placeholder="">
+    <input type="text" class="form-control p-4">
   </div>
-  <div class="form-group col-md-12">
+  <div class="form-group col-md-12 mt-3">
       <label>Phone Number</label>
       <input type="number" class="form-control" placeholder="Patient's Phone Number">
     </div>
-    <div class="form-group col-md-12">
+    <div class="form-group col-md-12 mt-3">
       <label for="inputState">Doctors</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
@@ -88,21 +88,23 @@
         <option>Dr. Tamim Khan</option>
       </select>
     </div>
-    <div class="form-group col-md-12">
-      <label>Appointment Date</label>
-      <input type="date" class="form-control" id="inputZip">
+    <div class="form-group col-md-12 mt-3">
+      <label>Appointment Date
+          <input type="date" class="form-control" id="inputZip">
+      </label>
+
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group mt-3">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input bg-warning" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
-        All information is currect
+        All information is correct
       </label>
     </div>
   </div>
-  <div class="col-12 "><button type="button" class="btn-appointmentForm ms-5 customFont fw-semibold"> Make Appointment 
-        </button></div>
+  <button type="button" id="btnConfirmAppointment" class="btn-appointmentForm mt-4 mb-4 customFont bg-warning" > Get Appointment
+        </button>
 </form>
 </section>
 
