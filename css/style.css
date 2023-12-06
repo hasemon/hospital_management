@@ -287,6 +287,15 @@
 .inputs {
     width: 400px;
 }
+.appointment{
+    color: #fafafa;
+    background-image: linear-gradient(to right, #3385ff, rgb(0, 255, 34));
+    border: 2px solid #3385ff;
+    border-radius: 25px;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 20px #3385ff;
+}
+
 .btn-appointment{
     font-size: 14px;
     width: 160px;
@@ -304,4 +313,22 @@
     border-radius: 25px;
     padding: 8px 0;
     box-shadow: 10px 10px 20px #3385ff;
+}
+.btn-appointmentForm{
+    font-size: 20px;
+    width: 400px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 255, 34), #3385ff);
+    border: 2px solid #3385ff;
+    border-radius: 25px;
+    padding: 10px 0;
+}
+
+.btn-appointmentForm:hover{
+    color: #000000;
+    background-image: linear-gradient(to right, rgb(238, 255, 0), #fa0981);
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding: 10px 0;
+    box-shadow: 10px 10px 20px #000000;
 }
