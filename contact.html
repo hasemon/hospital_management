@@ -40,72 +40,62 @@
     </div>
 </nav>
 
+    <!-- contact section  -->
+<section class="container bg-primary-subtle mt-5">
 
-<!-- Appointment form  -->
-<section class="container col-6 mt-5 pt-5 customFont appointment">
-    <div class="container col-10  ">
-        <h1>Doctor Appointment Form</h1>
-    </div>
-    <form>
-  <div class="form-row">
-    <div class="form-group col-md-12 pt-3 d-flex flex-row">
-      <label>
-          Name:
-          <input type="text" class="form-control inputs " placeholder="Patient's Name">
-      </label>
-        <label class="ps-5">
-            Age:
-            <input type="number" class="form-control" placeholder="Patient's age">
-        </label>
-    </div>
-    <div class="form-group col-md-6 pt-3">
-        <label>Gender</label>
-        <div class="form-check form-check-inline ps-5 pt-2">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Male</label>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-1">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-1">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="text-center text-md-left"><br>
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
         </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Female</label>
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>SHNIYD Savar Dhaka</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+8801333344455</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>care.center@gmail.com</p>
+                </li>
+            </ul>
         </div>
     </div>
-  </div>
-  <div class="form-group pt-3">
-    <label>Address</label>
-    <input type="text" class="form-control" placeholder="">
-  </div>
-  <div class="form-group col-md-12">
-      <label>Phone Number</label>
-      <input type="number" class="form-control" placeholder="Patient's Phone Number">
-    </div>
-    <div class="form-group col-md-12">
-      <label for="inputState">Doctors</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>Dr. Sanjida</option>
-        <option>Dr. Abrar</option>
-        <option>Dr. Ema</option>
-        <option>Dr. Tamim Khan</option>
-      </select>
-    </div>
-    <div class="form-group col-md-12">
-      <label>Appointment Date</label>
-      <input type="date" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        All information is currect
-      </label>
-    </div>
-  </div>
-  <div class="col-12 "><button type="button" class="btn-appointmentForm ms-5 customFont fw-semibold"> Make Appointment 
-        </button></div>
-</form>
 </section>
-
 
 
 <!-- footer -->
